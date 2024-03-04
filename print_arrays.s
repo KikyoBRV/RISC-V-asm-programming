@@ -6,7 +6,7 @@ space: .string " "
 
 .text
 main:
-    la a0, B # loading the starting address of array A to a0
+    la a0, B # loading the starting address of array B to a0
     addi a1, x0, 10 # passing the array size value to a1
     jal print_array
     
